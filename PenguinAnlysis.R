@@ -24,3 +24,5 @@ datamale <- data[which(data$sex == "male"),]
 write.table (datamale, "results/penguin_data_male.csv")
 #Imporved version  of saving a file
 write_tsv(datamale, "results/penguin_data_male.txt")
+
+
